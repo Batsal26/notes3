@@ -1,0 +1,30 @@
+How we can use Material Ui
+
+We have to install Material-Ui in Hyper
+
+-----------------------------------
+            Hyper
+
+npm instal @material-ui/core
+npm instal @material-ui/icons
+-----------------------------------
+
+Go to Material official website
+-> Components -> Icons -> Go ahead and use them.
+Go for search page
+
+We have to import icons like this. 
+import DeleteIcon from '@material-ui/icons/Delete';
+
+We can also use buttons from Material.ui
+-> input -> buttons
+We can use floating action buttons.
+ First we have to import (Just like I'm adding a float button)
+import AddIcon from '@material-ui/icons/Add';
+import Fab from '@material-ui/core/Fab';
+<Fab onClick={finalSubmit}><AddIcon /></Fab>
+
+We can also use the Zoom component. (In Material.ui Zoom API)
+
+We'll use in prop. It uses boolean component.
+

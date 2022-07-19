@@ -1,0 +1,9 @@
+We need to create a notes app.
+
+1. Implement the add note functionality.
+ - Create a constant that keeps track of the title and constant.
+ - Pass the new note back to the app.
+ - Add the new note to an array.
+ - Take array and render separate Note components for each item.
+
+2. Implement the delete note functionality.
